@@ -1,0 +1,10 @@
+openai>=1.0
+numpy
+pymupdf
+tiktoken
+python-dotenv
+tqdm
+rank-bm25
+torch
+transformers>=4.51
+cohere

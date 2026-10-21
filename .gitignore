@@ -1,0 +1,22 @@
+# Only financebench-rag/ (plus this file and the README) is tracked.
+# Everything else in this folder (CVs, notes, .env, .claude/) stays local.
+/*
+!/.gitignore
+!/README.md
+!/financebench-rag/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Large inputs and caches: download/rebuild locally (see README)
+financebench-rag/pdfs/
+financebench-rag/data/
+
+# Python / OS junk
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
